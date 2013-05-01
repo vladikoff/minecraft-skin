@@ -124,6 +124,8 @@ Skin.prototype.getMaterial = function(img, transparent) {
     map    : texture,
     transparent  : transparent ? true : false
   });
+  // hax
+  material.opacity = 0;
   return material;
 }
 
