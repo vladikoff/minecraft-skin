@@ -109,8 +109,8 @@ Skin.prototype.setImage = function (skin) {
   
   this.skinContext.putImageData(imgdata, 0, 0);
   
-  this.charMaterial.map.needsUpdate = true;
-  this.charMaterialTrans.map.needsUpdate = true;
+  //this.charMaterial.map.needsUpdate = true;
+  //this.charMaterialTrans.map.needsUpdate = true;
   
 };
 
