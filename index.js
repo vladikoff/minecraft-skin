@@ -121,8 +121,7 @@ Skin.prototype.getMaterial = function(img, transparent) {
   texture.format    = transparent ? THREE.RGBAFormat : THREE.RGBFormat;
   texture.needsUpdate  = true;
   var material  = new THREE.MeshBasicMaterial({
-    map    : texture,
-    transparent  : transparent ? true : false
+    transparent  : true
   });
   // hax
   material.opacity = 0;
