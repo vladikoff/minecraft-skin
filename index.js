@@ -94,7 +94,8 @@ Skin.prototype.setImage = function (skin) {
       
     }
   }
-  
+
+  /*
   for(var i=0; i < 64; i+=1) {
     for(var j=0; j < 32; j+=1) {
       if(isOnecolor && ((i >= 32 && i < 64 && j >= 8 && j < 16) || (i >= 40 && i < 56 && j >= 0 && j < 8))) {
@@ -104,7 +105,8 @@ Skin.prototype.setImage = function (skin) {
       this.skinBigContext.fillRect(i * this.sizeRatio, j * this.sizeRatio, this.sizeRatio, this.sizeRatio);
     }
   }
-  
+
+  */
   this.skinBigContext.restore();
   
   this.skinContext.putImageData(imgdata, 0, 0);
